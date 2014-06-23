@@ -1,0 +1,16 @@
+Descrição dos arquivos do anexo:
+
+==================== stack.h e stack.c
+Implementação de pilha dinâmica, trabalha com o tipo de dados "Data" (inicialmente definido como char), pode ser modificado no typedef, ex: se você precisar de uma pilha que armazene floats, altere a linha 5 para: typedef float Data;
+
+Note que a implementação (arquivo stack.c) está vazia e deve receber a sua implementação de pilha dinâmica. Fique atento para obedecer as especificações de funções no arquivo stack.h, se necessário renomeie as suas funções para que se adequem ao stack.h.
+
+==================== resolucao_exercicio.c
+Implemente sua lógica neste arquivo. Também é permitido realizar alterações nos arquivos stack.c e stack.h conforme necessário. 
+
+==================== Makefile
+Arquivo de configuração utilizado para compilar o código, para saber mais: http://en.wikipedia.org/wiki/Make_(software)
+
+==================== Notas
+#1: Mesmo usuários de IDEs no Linux/Mac são encorajados a utilizarem o Makefile para fins de aprendizado. 
+#2: Solução para usuários Windows: http://goo.gl/rj5lV
