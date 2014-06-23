@@ -1,0 +1,17 @@
+
+letra a)
+O primeiro ciclo acontece quando o numero 70 é inserido e o end volta para o inicio.
+O segundo ciclo é quando o valor 120 é inserido, com end=4 e begin=0. 
+O terceiro ciclo acontece quando todos são removidos com begin=0 e end=4.
+
+letra b)
+Can't add: queue is full!
+
+letra c)
+end = 0; begin = 2;
+
+letra d)
+nenhuma.
+
+letra e)
+Fala que a fila esta vazia. Can't remove: queue is Empty!
