@@ -1,0 +1,92 @@
+int list_add_first (DynamicList* l, Data data) //adicionaInicio CHAMA ADD COM INDEX 0
+//Adiciona o inteiro no início da lista. Retorna 1 em caso de sucesso, 0 caso contrário.
+{
+
+}
+int list_add_last (DynamicList* l, Data data) //adicionaFinal CHAMA ADD COM INDEX=SIZE
+//Adiciona o inteiro ao final da lista. Retorna 1 em caso de sucesso, 0 caso contrário.
+{
+
+}
+int list_contains(DynamicList* l, Data data) //contem
+//Retorna 1 se a lista contém o elemento especificado, 0 caso contrário.
+{
+
+}
+Data list_get(DynamicList* l, int index) //retorna
+/*Retorna, mas não remove, o elemento da posição especificada na lista. Considere índices
+que o usuário pode fornecer um índice inválido ou ainda a lista pode estar vazia, nestes casos
+retorne um codigo de erro: NULL para ponteiros, -1 para tipos primitivos (defina
+“ErrorCode” no “.h”). Considere isso para as demais operações. Perceba esta como a
+operação mais genérica para retornar elementos.*/
+{
+
+}
+Data list_get_first(DynamicList* l) //retornaPrimeiro
+//Retorna, mas não remove, o primeiro elemento da lista. Considere que a lista pode estar vazia,
+//neste caso retorne o código de erro.
+{
+
+}
+Data list_get_last(DynamicList* l) //retornaUltimo
+//Retorna, mas não remove, o último elemento da lista. Considere que a lista pode estar vazia,
+//neste caso retorne o código de erro.
+{
+
+}
+int list_index_of(DynamicList* l, Data data) //primeiraOcorrencia
+/*Retorna o índice da primeira ocorrência do elemento especificado na lista, ou (-1) se a lista não
+contiver o elemento. Note que você vai precisar comparar elementos, em caso de tipos
+primitivos pode ser usado o operador “==”, para tipos definidos pelo usuário (ex: Data =
+Student*) deve ser definido um comparador (ex: is_data_equal(Data d1, Data d2), onde d1 e d2
+serão estudantes, comparados de acordo com algum critério definido dentro de is_data_equal ).*/
+{
+
+}
+int list_last_index_of(DynamicList* l, Data data) //ultimaOcorrencia
+/*Retorna o índice da última ocorrência do elemento especificado na lista, ou (-1) se a lista não
+contiver o elemento. Comparador: idem função anterior.*/
+{
+
+}
+Data list_remove(DynamicList* l, int index) //remove
+/*Remove e retorna o primeiro elemento da posição especificada na lista. Operação mais
+genérica de remoção. Retorne o código de erro caso o usuário forneça um índice inválido.Data list_remove_fist(DynamicList* l) //removePrimeiro
+Remove e retorna o primeiro elemento da lista. Retorne o código de erro caso o usuário forneça
+um índice inválido.*/
+{
+
+}
+Data list_remove_last(DynamicList* l) //removeUltimo
+/*Remove e retorna o último elemento da lista. Retorne o código de erro caso o usuário forneça
+um índice inválido.*/
+{
+
+}
+void list_clear(DynamicList* l) //esvazia ou reinicializa
+//Remove todos os elementos da lista.
+{
+
+}
+int list_size(DynamicList* l) //tamanho
+/*Retorna o número de elementos na lista. Note que esta função pode ser facilitada com o uso de
+uma variável inteira “size” na struct principal.*/
+{
+
+}
+void list_print(DynamicList* l) //imprime ou textualiza
+/*Imprime na saída a representação textual da lista. Ex (considerando uma lista de inteiros):
+– lista vazia:
+{}
+– lista com um elemento:
+{10}
+– lista com mais elementos:
+{10, 20, 30, 40}
+Note que a impressão de elementos pode variar de acordo com o tipo de dados que a lista
+armazena, para facilitar a implementação, crie uma função “print_item(Data d)”, responsável
+por imprimir um único elemento. Esta função pode ser utilizada em list_print, assim,
+independentemente do tipo de dado armazenado na lista, a função print_item será sempre
+responsável pela impressão dos itens.*/
+{
+	
+}
